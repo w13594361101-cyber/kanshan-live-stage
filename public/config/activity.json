@@ -1,0 +1,25 @@
+{
+  "eventName": "浦江创新论坛",
+  "productName": "看山有问",
+  "questions": [
+    { "id": "q1", "text": "问题占位 01｜请在控制台填写正式问题", "tag": "问题一", "enabled": true },
+    { "id": "q2", "text": "问题占位 02｜请在控制台填写正式问题", "tag": "问题二", "enabled": true },
+    { "id": "q3", "text": "问题占位 03｜请在控制台填写正式问题", "tag": "问题三", "enabled": true },
+    { "id": "q4", "text": "问题占位 04｜请在控制台填写正式问题", "tag": "问题四", "enabled": true },
+    { "id": "q5", "text": "问题占位 05｜请在控制台填写正式问题", "tag": "问题五", "enabled": true }
+  ],
+  "speakers": [
+    { "id": "s1", "name": "分享嘉宾 01", "title": "身份信息待补充", "available": true },
+    { "id": "s2", "name": "分享嘉宾 02", "title": "身份信息待补充", "available": true },
+    { "id": "s3", "name": "分享嘉宾 03", "title": "身份信息待补充", "available": true },
+    { "id": "s4", "name": "分享嘉宾 04", "title": "身份信息待补充", "available": true },
+    { "id": "s5", "name": "分享嘉宾 05", "title": "身份信息待补充", "available": true }
+  ],
+  "experts": [
+    { "id": "e1", "name": "点评专家 01", "title": "身份信息待补充", "available": true },
+    { "id": "e2", "name": "点评专家 02", "title": "身份信息待补充", "available": true },
+    { "id": "e3", "name": "点评专家 03", "title": "身份信息待补充", "available": true },
+    { "id": "e4", "name": "点评专家 04", "title": "身份信息待补充", "available": true },
+    { "id": "e5", "name": "点评专家 05", "title": "身份信息待补充", "available": true }
+  ]
+}
