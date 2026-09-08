@@ -1,4 +1,4 @@
-{
+export const defaults = {
   "eventName": "Y-Hubs 青年科学家",
   "productName": "浦江创新论坛 × 知乎",
   "groups": [
@@ -348,4 +348,4 @@
       "nextSpeaker": ""
     }
   ]
-}
+};

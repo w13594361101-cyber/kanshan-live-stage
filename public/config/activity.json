@@ -1,25 +1,351 @@
 {
-  "eventName": "浦江创新论坛",
-  "productName": "看山有问",
-  "questions": [
-    { "id": "q1", "text": "问题占位 01｜请在控制台填写正式问题", "tag": "问题一", "enabled": true },
-    { "id": "q2", "text": "问题占位 02｜请在控制台填写正式问题", "tag": "问题二", "enabled": true },
-    { "id": "q3", "text": "问题占位 03｜请在控制台填写正式问题", "tag": "问题三", "enabled": true },
-    { "id": "q4", "text": "问题占位 04｜请在控制台填写正式问题", "tag": "问题四", "enabled": true },
-    { "id": "q5", "text": "问题占位 05｜请在控制台填写正式问题", "tag": "问题五", "enabled": true }
-  ],
-  "speakers": [
-    { "id": "s1", "name": "分享嘉宾 01", "title": "身份信息待补充", "available": true },
-    { "id": "s2", "name": "分享嘉宾 02", "title": "身份信息待补充", "available": true },
-    { "id": "s3", "name": "分享嘉宾 03", "title": "身份信息待补充", "available": true },
-    { "id": "s4", "name": "分享嘉宾 04", "title": "身份信息待补充", "available": true },
-    { "id": "s5", "name": "分享嘉宾 05", "title": "身份信息待补充", "available": true }
-  ],
-  "experts": [
-    { "id": "e1", "name": "点评专家 01", "title": "身份信息待补充", "available": true },
-    { "id": "e2", "name": "点评专家 02", "title": "身份信息待补充", "available": true },
-    { "id": "e3", "name": "点评专家 03", "title": "身份信息待补充", "available": true },
-    { "id": "e4", "name": "点评专家 04", "title": "身份信息待补充", "available": true },
-    { "id": "e5", "name": "点评专家 05", "title": "身份信息待补充", "available": true }
+  "eventName": "Y-Hubs 青年科学家",
+  "productName": "浦江创新论坛 × 知乎",
+  "groups": [
+    {
+      "id": "g1",
+      "enabled": true,
+      "question": {
+        "id": "q1",
+        "text": "总书记在科技三会上提出，要推荐科技创新与产业创新深度融合，但我们都知道，成果转化往往要跨越“死亡之谷”——概念验证需要大量试错，而市场推广又面临应用场景模糊、资本信心不足等难题。我想知道，科技成果从实验室到市场的“最后一公里”，最关键的破局点在哪里？",
+        "textEn": "",
+        "asker": "主持人：白龙",
+        "askerEn": "Host：Long BAI"
+      },
+      "speaker": {
+        "id": "s1",
+        "name": "梁馨方",
+        "nameEn": "",
+        "title": "脑回智能医疗创始人",
+        "bio": "致力于AI与脑科学前沿产业，深耕科技成果转化，曾主持中科院等单位项目转化。",
+        "fullBio": "梁馨方，脑回智能医疗创始人，致力于AI与脑科学前沿产业，深耕科技成果转化领域，曾主持中科院等单位项目转化，参与引进国家发改委重大外资，市委党校重点培育创始人，浦江青年先锋，上海市青科协会员，上海交大大健康学社副理事长。",
+        "image": "./assets/speakers/01-liang-xinfang.webp"
+      },
+      "outgoingQuestion": "科学服务业是连接基础研究与产业应用的“基础设施”。我觉得创业首先要有热爱，其次要去尝试和实践。目前中国科技正从“跟跑”到“并跑”甚至“领跑”，我想了解当前，最大的机遇和挑战分别是什么？",
+      "outgoingQuestionEn": "",
+      "nextSpeaker": "马琳杰"
+    },
+    {
+      "id": "g2",
+      "enabled": true,
+      "question": {
+        "id": "q2",
+        "text": "科学服务业是连接基础研究与产业应用的“基础设施”。我觉得创业首先要有热爱，其次要去尝试和实践。目前中国科技正从“跟跑”到“并跑”甚至“领跑”，我想了解当前，最大的机遇和挑战分别是什么？",
+        "textEn": "",
+        "asker": "梁馨方",
+        "askerEn": ""
+      },
+      "speaker": {
+        "id": "s2",
+        "name": "马琳杰",
+        "nameEn": "",
+        "title": "上海泰坦科技股份有限公司副总裁",
+        "bio": "上海交通大学安泰经管学院硕士，上海市青年五十人创新创业研究院理事，徐汇区第十四届政协委员。",
+        "fullBio": "马琳杰，中共党员，上海交通大学安泰经管学院硕士，上海泰坦科技股份有限公司副总裁（分管投资、党建、工会等板块），上海市青年五十人创新创业研究院理事，徐汇区第十四届政协委员，上海交通大学低碳学院产业导师。",
+        "image": "./assets/speakers/02-ma-linjie.webp"
+      },
+      "outgoingQuestion": "重大的科技突破往往诞生在学科边缘，是否能有意识地把“边缘碰撞”设计出来，而不是被动等待偶然？",
+      "outgoingQuestionEn": "Major scientific breakthroughs often emerge at the boundaries between disciplines. Rather than waiting for these interdisciplinary collisions to happen by chance, how can we deliberately create the conditions for them—and turn them into meaningful innovation?",
+      "nextSpeaker": "Simone Lamon"
+    },
+    {
+      "id": "g3",
+      "enabled": true,
+      "question": {
+        "id": "q3",
+        "text": "重大的科技突破往往诞生在学科边缘，是否能有意识地把“边缘碰撞”设计出来，而不是被动等待偶然？",
+        "textEn": "Major scientific breakthroughs often emerge at the boundaries between disciplines. Rather than waiting for these interdisciplinary collisions to happen by chance, how can we deliberately create the conditions for them—and turn them into meaningful innovation?",
+        "asker": "马琳杰",
+        "askerEn": "Linjie MA"
+      },
+      "speaker": {
+        "id": "s3",
+        "name": "Simone Lamon",
+        "nameEn": "",
+        "title": "上海理工大学副教授",
+        "bio": "研究纳米光子学、先进光学材料与光学信息技术，聚焦三维光学数据存储、超分辨光学和机器学习赋能的光子学系统。",
+        "fullBio": "西蒙·拉蒙博士是上海理工大学副教授，研究领域涵盖纳米光子学、先进光学材料与光学信息技术的交叉方向。他的研究聚焦于高密度三维光学数据存储、超分辨光学技术、上转换纳米材料、激光纳米加工以及机器学习赋能的光子学系统。他开发了将功能材料与非线性和结构光相互作用相结合的新方法，用于新一代光学存储与成像。其研究成果发表于国际权威期刊，并通过同行评审、编辑工作、国际合作及学术会议等方式积极服务于光子学领域。\n\nDr. Simone Lamon is an Associate Professor at the University of Shanghai for Science and Technology, where he conducts research at the intersection of nanophotonics, advanced optical materials, and optical information technologies. His research focuses on high-density three-dimensional optical data storage, super-resolution optical techniques, upconversion nanomaterials, laser nanofabrication, and machine-learning-enabled photonic systems. He has developed innovative approaches combining functional materials with nonlinear and structured-light interactions for next-generation optical memory and imaging. His work has been published in leading international journals, and he actively contributes to the photonics community through peer review, editorial activities, international collaborations, and scientific conferences.",
+        "image": "./assets/speakers/03-simone-lamon.webp"
+      },
+      "outgoingQuestion": "我是从事激光物理研究的，最近对可控核聚变也很感兴趣，我一直很好奇，除了磁约束和惯性约束外，是否有可能利用强激光实现第三条路径？",
+      "outgoingQuestionEn": "My research background is in laser physics, and I have recently developed a keen interest in controlled nuclear fusion. I have long been curious whether, beyond magnetic confinement and inertial confinement, it might be possible to leverage high-power lasers to open up a third route",
+      "nextSpeaker": "张冬冬"
+    },
+    {
+      "id": "g4",
+      "enabled": true,
+      "question": {
+        "id": "q4",
+        "text": "我是从事激光物理研究的，最近对可控核聚变也很感兴趣，我一直很好奇，除了磁约束和惯性约束外，是否有可能利用强激光实现第三条路径？",
+        "textEn": "My research background is in laser physics, and I have recently developed a keen interest in controlled nuclear fusion. I have long been curious whether, beyond magnetic confinement and inertial confinement, it might be possible to leverage high-power lasers to open up a third route",
+        "asker": "Simone Lamon",
+        "askerEn": ""
+      },
+      "speaker": {
+        "id": "s4",
+        "name": "张冬冬",
+        "nameEn": "Dongdong ZHANG",
+        "title": "超快强场激光物理研究者",
+        "bio": "博士毕业于中科院上海光机所，研究表面波自由电子相干辐射与球状电磁孤子，成果发表于Nature、Nature Photonics。",
+        "fullBio": "张冬冬博士，2023 年博士毕业于中科院上海光机所。主攻超快强场激光物理，聚焦表面波自由电子相干辐射、球状电磁孤子研究，一作/共一发表 Nature、Nature Photonics，成果入选中国光学年度十大进展，获国家博新计划等资助。",
+        "image": "./assets/speakers/04-zhang-dongdong.webp"
+      },
+      "outgoingQuestion": "在社交媒体时代，信息传播节奏极快，公众注意力碎片化。我们的科普工作如何平衡“趣味性”与“严谨性”？",
+      "outgoingQuestionEn": "",
+      "nextSpeaker": "光礼夏"
+    },
+    {
+      "id": "g5",
+      "enabled": true,
+      "question": {
+        "id": "q5",
+        "text": "在社交媒体时代，信息传播节奏极快，公众注意力碎片化。我们的科普工作如何平衡“趣味性”与“严谨性”？",
+        "textEn": "",
+        "asker": "张冬冬",
+        "askerEn": ""
+      },
+      "speaker": {
+        "id": "s5",
+        "name": "光礼夏",
+        "nameEn": "",
+        "title": "科普作家、中国航天科普大使",
+        "bio": "知乎新知答主及优秀回答者，长期从事多项科技史领域的科普工作。",
+        "fullBio": "科普作家，中国航天科普大使，知乎新知答主及优秀回答者，在多项科技史领域长期从事科普工作。",
+        "image": "./assets/speakers/05-guang-lixia.webp"
+      },
+      "outgoingQuestion": "“科学不确定性”是我们必须要面对的现实，科学过程充满失败和争议，如何在不损害公众信任的前提下，真实地传播这种“非圆满”的科学面目？",
+      "outgoingQuestionEn": "",
+      "nextSpeaker": "傅士博"
+    },
+    {
+      "id": "g6",
+      "enabled": true,
+      "question": {
+        "id": "q6",
+        "text": "“科学不确定性”是我们必须要面对的现实，科学过程充满失败和争议，如何在不损害公众信任的前提下，真实地传播这种“非圆满”的科学面目？",
+        "textEn": "",
+        "asker": "光礼夏",
+        "askerEn": ""
+      },
+      "speaker": {
+        "id": "s6",
+        "name": "傅士博",
+        "nameEn": "",
+        "title": "医学博士、上海市超级博士后",
+        "bio": "知乎昵称菲利普博士，长期从事医工交叉研究，知乎医学话题优秀答主、年度新知答主。",
+        "fullBio": "知乎昵称菲利普博士。医学博士，上海市超级博士后，长期从事医工交叉跨学科研究。知乎医学话题优秀答主，2018、2024年度新知答主。",
+        "image": "./assets/speakers/06-fu-shibo.webp"
+      },
+      "outgoingQuestion": "科学直觉、好奇心和跨学科连接力是否可被测量或评价？是否存在一种不依赖标准化考试的评估方式？",
+      "outgoingQuestionEn": "",
+      "nextSpeaker": "应浩江"
+    },
+    {
+      "id": "g7",
+      "enabled": true,
+      "question": {
+        "id": "q7",
+        "text": "科学直觉、好奇心和跨学科连接力是否可被测量或评价？是否存在一种不依赖标准化考试的评估方式？",
+        "textEn": "",
+        "asker": "傅士博",
+        "askerEn": ""
+      },
+      "speaker": {
+        "id": "s7",
+        "name": "应浩江",
+        "nameEn": "",
+        "title": "苏州大学副教授、科普作家",
+        "bio": "南洋理工大学博士，研究认知心理学与计算视觉，致力于认知科学与神经科学科普。",
+        "fullBio": "苏州大学副教授，南洋理工大学博士。研究认知心理学与计算视觉。科普作家，致力于科普认知科学与神经科学知识。知乎年度新知答主、优秀答主。",
+        "image": "./assets/speakers/07-ying-haojiang.webp"
+      },
+      "outgoingQuestion": "有科学家称 AI4S 最难的是「验证」，为什么「验证」会成为AI自动科研的关键瓶颈？",
+      "outgoingQuestionEn": "",
+      "nextSpeaker": "严佳骏"
+    },
+    {
+      "id": "g8",
+      "enabled": true,
+      "question": {
+        "id": "q8",
+        "text": "有科学家称 AI4S 最难的是「验证」，为什么「验证」会成为AI自动科研的关键瓶颈？",
+        "textEn": "",
+        "asker": "应浩江",
+        "askerEn": ""
+      },
+      "speaker": {
+        "id": "s8",
+        "name": "严佳骏",
+        "nameEn": "",
+        "title": "上海科技大学助理教授、研究员、博士生导师",
+        "bio": "北京大学化学学院本科、卡耐基梅隆大学化学博士，主要研究复杂结构高分子的合成化学。",
+        "fullBio": "本科毕业于北京大学化学学院，2018年在美国卡耐基梅隆大学化学系取得博士学位。同年加入美国劳伦斯伯克利国家实验室从事博士后研究，2021年加入上海科技大学物质科学与技术学院担任助理教授、研究员、博士生导师，主要研究复杂结构高分子的合成化学。",
+        "image": "./assets/speakers/08-yan-jiajun.webp"
+      },
+      "outgoingQuestion": "AI技术的发展是否正在重塑我们对“创新”本身的定义？当算法可以生成想法、优化方案时，人类的创造力还剩下什么？",
+      "outgoingQuestionEn": "Is the development of AI technology reshaping our very definition of 'innovation'? When algorithms can generate ideas and optimize solutions, what is left for human creativity?",
+      "nextSpeaker": "伯涵峥"
+    },
+    {
+      "id": "g9",
+      "enabled": true,
+      "question": {
+        "id": "q9",
+        "text": "AI技术的发展是否正在重塑我们对“创新”本身的定义？当算法可以生成想法、优化方案时，人类的创造力还剩下什么？",
+        "textEn": "Is the development of AI technology reshaping our very definition of 'innovation'? When algorithms can generate ideas and optimize solutions, what is left for human creativity?",
+        "asker": "严佳骏",
+        "askerEn": ""
+      },
+      "speaker": {
+        "id": "s9",
+        "name": "伯涵峥",
+        "nameEn": "",
+        "title": "上海交通大学巴黎卓越工程师学院数学教师",
+        "bio": "上海纭算科技有限公司创始人、应用数学博士，致力于将人工智能算法与优化技术用于能源效率提升。",
+        "fullBio": "伯涵峥，上海交通大学巴黎卓越工程师学院数学教师及本硕生导师、上海纭算科技有限公司创始人，应用数学博士学位。负责指导本科及硕士阶段学生的教学与科研项目。曾参与法国电力公司、中国广核集团等国内外研究机构的科研合作。基于过往的工作背景，致力于将人工智能算法与优化技术相结合，旨在提升能源效率。\n上海纭算科技有限公司，基于AI智能技术，包括机器学习、深度学习、自然语言处理、计算机视觉等多个子领域，模拟人类的思维、学习与认知能力，使计算机系统具备类似人类智能的行为与决策能力。通过大数据分析与AI算法，系统能够实时监控、优化和控制能源使用，实现智能化、精细化的能源管理。",
+        "image": "./assets/speakers/09-bo-hanzheng.webp"
+      },
+      "outgoingQuestion": "在科技大爆发的今天，最被低估的创新方向是什么？",
+      "outgoingQuestionEn": "With technology booming like never before, what is the most underrated area of innovation today?",
+      "nextSpeaker": "郭亚楠"
+    },
+    {
+      "id": "g10",
+      "enabled": true,
+      "question": {
+        "id": "q10",
+        "text": "在科技大爆发的今天，最被低估的创新方向是什么？",
+        "textEn": "With technology booming like never before, what is the most underrated area of innovation today?",
+        "asker": "伯涵峥",
+        "askerEn": ""
+      },
+      "speaker": {
+        "id": "s10",
+        "name": "郭亚楠",
+        "nameEn": "",
+        "title": "上海交通大学医学院附属仁济医院主治医师",
+        "bio": "从事耳鼻咽喉科临床诊疗及鼻腔微生态与宿主互作机制研究，主持市级科普项目。",
+        "fullBio": "上海交通大学医学院附属仁济医院耳鼻咽喉科主治医师，长期从事耳鼻咽喉科临床诊疗及鼻腔微生态与宿主互作机制研究。曾获上海市健康科普推优选树新锐人物等荣誉，主编/副主编科普书籍3部，主持市级科普项目。",
+        "image": "./assets/speakers/10-guo-yanan.webp"
+      },
+      "outgoingQuestion": "面对气候变化和极端水文事件，地下水科学能够发挥哪些独特作用？科学研究又该如何在探索基础规律的同时，回应现实的水安全需求？",
+      "outgoingQuestionEn": "",
+      "nextSpeaker": "魏亚强"
+    },
+    {
+      "id": "g11",
+      "enabled": true,
+      "question": {
+        "id": "q11",
+        "text": "面对气候变化和极端水文事件，地下水科学能够发挥哪些独特作用？科学研究又该如何在探索基础规律的同时，回应现实的水安全需求？",
+        "textEn": "",
+        "asker": "郭亚楠",
+        "askerEn": ""
+      },
+      "speaker": {
+        "id": "s11",
+        "name": "魏亚强",
+        "nameEn": "",
+        "title": "上海大学副研究员",
+        "bio": "研究土壤—地下水污染修复与智能模拟，主持国家自然科学基金项目，入选上海市“东方英才”计划。",
+        "fullBio": "上海大学副研究员，上海交通大学博士后，中国科学院大学和美国亚利桑那大学联培博士。主要从事土壤-地下水污染修复与智能模拟研究，在Science, Nature Geoscience, Environmental Science & Technology（4篇封面）等期刊发表论文56篇（第一或通讯作者42篇）。主持国家自然科学重点基金课题、面上基金等，入选上海市“东方英才”计划、上海市“地质之星”人才计划。",
+        "image": "./assets/speakers/11-wei-yaqiang.webp"
+      },
+      "outgoingQuestion": "如果 AI 能给出很多健康答案，医生真正不可替代的地方是什么？",
+      "outgoingQuestionEn": "",
+      "nextSpeaker": "孙悦礼"
+    },
+    {
+      "id": "g12",
+      "enabled": true,
+      "question": {
+        "id": "q12",
+        "text": "如果 AI 能给出很多健康答案，医生真正不可替代的地方是什么？",
+        "textEn": "",
+        "asker": "魏亚强",
+        "askerEn": ""
+      },
+      "speaker": {
+        "id": "s12",
+        "name": "孙悦礼",
+        "nameEn": "",
+        "title": "龙华医院副主任医师、副研究员、硕士生导师",
+        "bio": "聚焦脊柱退行性疾病中西医结合防治与医学人工智能，获全国青年五四奖章、上海市医疗人才银蛇奖。",
+        "fullBio": "上海中医药大学附属龙华医院，副主任医师、副研究员、硕士生导师，上海中医药大学中医骨伤学与纽约州立大学石溪分校生物医学工程双博士、海军军医大学骨外科学博士后、斯坦福大学访问学者。聚焦脊柱退行性疾病中西医结合防治与医学人工智能，发表SCI论文36篇，主持国家自然科学基金等课题11项。获全国青年五四奖章、上海市医疗人才银蛇奖等荣誉。",
+        "image": "./assets/speakers/12-sun-yueli.webp"
+      },
+      "outgoingQuestion": "",
+      "outgoingQuestionEn": "",
+      "nextSpeaker": ""
+    },
+    {
+      "id": "g13",
+      "enabled": false,
+      "question": {
+        "id": "q13",
+        "text": "备用问题 13｜待填写",
+        "textEn": "",
+        "asker": "待填写",
+        "askerEn": ""
+      },
+      "speaker": {
+        "id": "s13",
+        "name": "备用嘉宾 13",
+        "nameEn": "",
+        "title": "身份 / 单位 / 职务待补充",
+        "bio": "",
+        "fullBio": "",
+        "image": ""
+      },
+      "outgoingQuestion": "",
+      "outgoingQuestionEn": "",
+      "nextSpeaker": ""
+    },
+    {
+      "id": "g14",
+      "enabled": false,
+      "question": {
+        "id": "q14",
+        "text": "备用问题 14｜待填写",
+        "textEn": "",
+        "asker": "待填写",
+        "askerEn": ""
+      },
+      "speaker": {
+        "id": "s14",
+        "name": "备用嘉宾 14",
+        "nameEn": "",
+        "title": "身份 / 单位 / 职务待补充",
+        "bio": "",
+        "fullBio": "",
+        "image": ""
+      },
+      "outgoingQuestion": "",
+      "outgoingQuestionEn": "",
+      "nextSpeaker": ""
+    },
+    {
+      "id": "g15",
+      "enabled": false,
+      "question": {
+        "id": "q15",
+        "text": "备用问题 15｜待填写",
+        "textEn": "",
+        "asker": "待填写",
+        "askerEn": ""
+      },
+      "speaker": {
+        "id": "s15",
+        "name": "备用嘉宾 15",
+        "nameEn": "",
+        "title": "身份 / 单位 / 职务待补充",
+        "bio": "",
+        "fullBio": "",
+        "image": ""
+      },
+      "outgoingQuestion": "",
+      "outgoingQuestionEn": "",
+      "nextSpeaker": ""
+    }
   ]
 }
